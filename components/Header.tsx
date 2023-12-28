@@ -6,7 +6,7 @@ import ThemeSwitch from './ThemeSwitch'
 
 const Header = () => {
   return (
-    <header className="flex items-center justify-between py-10">
+    <header className="fixed top-3 z-[999] flex max-w-[1024px] items-center justify-between rounded-lg bg-[#2b2b2b] p-5 py-10 sm:w-full md:w-3/4">
       <div>
         <Link href="/" aria-label={siteMetadata.headerTitle}>
           <div className="flex items-center justify-between">

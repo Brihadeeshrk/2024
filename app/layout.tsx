@@ -78,7 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <SectionContainer>
             <div className="flex h-screen flex-col justify-between font-sans">
               <Header />
-              <main className="mb-auto">{children}</main>
+              <main className="mb-auto pt-32">{children}</main>
               <Footer />
             </div>
           </SectionContainer>
