@@ -5,18 +5,12 @@ const siteMetadata = {
   headerTitle: 'Details of my 2024',
   description: 'A page that would contain my understandings of the things i discover in 2024',
   language: 'en-us',
-  theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
-  siteLogo: '/static/images/logo.png',
-  socialBanner: '/static/images/twitter-card.png',
-  mastodon: 'https://mastodon.social/@mastodonuser',
-  email: 'address@yoursite.com',
-  github: 'https://github.com',
-  twitter: 'https://twitter.com/Twitter',
-  facebook: 'https://facebook.com',
-  youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com',
+  theme: 'system',
+  siteUrl: 'https://2024.briha.xyz',
+  siteRepo: 'https://github.com/Brihadeeshrk/2024',
+  email: 'hello@briha.xyz',
+  github: 'https://github.com/Brihadeeshrk',
+  linkedin: 'https://www.linkedin.com/brihadeeshrk',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
@@ -36,11 +30,6 @@ const siteMetadata = {
     // googleAnalytics: {
     //   googleAnalyticsId: '', // e.g. G-XXXXXXX
     // },
-  },
-  newsletter: {
-    // supports mailchimp, buttondown, convertkit, klaviyo, revue, emailoctopus
-    // Please add your .env file and modify it according to your selection
-    provider: 'buttondown',
   },
   comments: {
     // If you want to use an analytics provider you have to add it to the
